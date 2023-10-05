@@ -9,13 +9,13 @@ const {
 } = require('../../controllers/thoughtController')
 
 // /api/thoughts
-router.route('/').get(getThought).post(createThought)
+// router.route('/').get(getThought).post(createThought)
 
-// /api/thoughts/:thoughtId
-router 
-    .route('/:thoughtId')
-    .get(getSingleThought)
-    .put(updateThought)
-    .delete(deleteThought)
+// // /api/thoughts/:thoughtId
+// router 
+//     .route('/:thoughtId')
+//     .get(getSingleThought)
+//     .put(updateThought)
+//     .delete(deleteThought)
 
 module.exports = router
